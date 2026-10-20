@@ -67,7 +67,7 @@ C:\Users\<你>\.openclaw\nodejs-link\node.exe
 |---|---|
 | `fix-gateway-cmd.ps1` | 自动修复脚本：检测并替换 `gateway.cmd` 中被污染的 node 路径 |
 | `gateway.vbs` | 保护版启动器：先修复，后启动（计划任务入口） |
-| `gateway.cmd` | 修复后的启动脚本模板（ASCII junction 路径） |
+| `gateway.cmd`（不在仓库中） | 由 `install.ps1` 生成到 `%USERPROFILE%\.openclaw\` 的启动脚本（ASCII junction 路径） |
 | `install.ps1` | 一键安装：创建 junction + 写入脚本 + 注册计划任务 |
 
 ## 使用方法

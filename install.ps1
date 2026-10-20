@@ -5,7 +5,7 @@
 
 param(
     [string]$NodeExe = '',
-    [string]$OpenClawDist = 'C:\Users\chuzijun\AppData\Roaming\npm\node_modules\openclaw\dist\index.js',
+    [string]$OpenClawDist = (Join-Path $env:APPDATA 'npm\node_modules\openclaw\dist\index.js'),
     [int]$Port = 18789,
     [string]$TaskName = 'OpenClaw Gateway'
 )
